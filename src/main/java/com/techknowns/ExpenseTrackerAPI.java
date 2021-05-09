@@ -1,13 +1,13 @@
-package com.dailycodebuffer;
+package com.techknowns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DynanoDbSpringBootDemoApplication {
+public class ExpenseTrackerAPI {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DynanoDbSpringBootDemoApplication.class, args);
+		SpringApplication.run(ExpenseTrackerAPI.class, args);
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.dailycodebuffer.entity;
+package com.techknowns.entity;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBDocument;
