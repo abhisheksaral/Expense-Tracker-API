@@ -12,6 +12,8 @@ public class ExpenseController {
     private ExpenseRepository expenseRepository;
 
 
+    //TODO: Get all expense
+
     @CrossOrigin
     @PostMapping("/expense")
     public Expense saveEmployee(@RequestBody Expense expense) {

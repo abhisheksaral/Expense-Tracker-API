@@ -14,6 +14,8 @@ public class ExpenseRepository {
     @Autowired
     private DynamoDBMapper dynamoDBMapper;
 
+    //TODO: getAll() implementation
+
 
     public Expense save(Expense expense) {
         dynamoDBMapper.save(expense);
